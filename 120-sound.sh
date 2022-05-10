@@ -47,20 +47,24 @@ echo "Installation of sound software"
 ###############################################################################
 
 list=(
-pulseaudio
-pulseaudio-alsa
-pavucontrol
-alsa-firmware
-alsa-lib
-alsa-plugins
-alsa-utils
+xdg-desktop-portal-lxqt
+wireplumber
+pipewire-alsa
+pipewire-jack
+pipewire-pulse
+gst-plugin-pipewire
+libpulse
+pipewire-v4l2
+pipewire-x11-bell
+pipewire-zeroconf
+realtime-privileges
 gstreamer
 gst-plugins-good
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
-playerctl
-volumeicon
+#lib32-pipewire #(for multilib support)
+#lib32-pipewire-jack #(for multilib support)
 )
 
 count=0
