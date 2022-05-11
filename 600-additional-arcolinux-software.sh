@@ -60,13 +60,6 @@ arcolinux-config-lxqt-git
 arcolinux-lxqt-dconf-git
 arcolinux-lxqt-applications-add-git
 arcolinux-lxqt-applications-hide-git
-arcolinux-kvantum-lxqt-git
-thunar
-thunar-archive-plugin
-thunar-volman
-xfce4-terminal
-arcolinux-xfce-git
-arcolinux-local-xfce4-git
 arcolinux-wallpapers-lxqt-dual-git
 )
 
@@ -86,7 +79,6 @@ arcolinux-hblock-git
 arcolinux-root-git
 arcolinux-termite-themes-git
 arcolinux-tweak-tool-git
-arcolinux-variety-git
 )
 
 count=0
