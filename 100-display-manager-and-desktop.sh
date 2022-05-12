@@ -79,7 +79,9 @@ tput setaf 2;echo "#############################################################
 echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
-sudo pacman -Rs pavucontrol-qt network-manager-applet networkmanager-openconnect networkmanager-openvpn networkmanager-pptp networkmanager-vpnc --noconfirm
+sudo pacman -Rs pavucontrol-qt network-manager-applet --noconfirm
+sudo pacman -Rs networkmanager-openconnect networkmanager-openvpn --noconfirm
+sudo pacman -Rs networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
 
 
 tput setaf 7;echo "################################################################"
