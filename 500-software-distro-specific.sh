@@ -97,8 +97,7 @@ htop
 nomacs
 qt5-imageformats
 xterm
-ttf-hack
-qt5-utils
+qt5-tools
 libxkbcommon-x11
 )
 
