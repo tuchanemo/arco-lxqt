@@ -99,6 +99,9 @@ nomacs
 qt5-imageformats
 xterm
 ttf-hack
+qt5-utils
+connman
+libxkbcommon-x11
 )
 
 count=0
