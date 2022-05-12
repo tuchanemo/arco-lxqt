@@ -51,6 +51,7 @@ sddm
 arcolinux-wallpapers-git
 lxqt
 netctl
+ntfs-3g
 )
 
 count=0
