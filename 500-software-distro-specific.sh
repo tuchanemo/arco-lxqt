@@ -55,7 +55,6 @@ func_category() {
 func_category Additional-distro-specific
 
 list=(
-pavucontrol-qt
 xscreensaver
 lxqt-arc-dark-theme-git
 ksuperkey

@@ -63,6 +63,7 @@ gst-plugins-good
 gst-plugins-bad
 gst-plugins-base
 gst-plugins-ugly
+pavucontrol-qt
 #lib32-pipewire #(for multilib support)
 #lib32-pipewire-jack #(for multilib support)
 )
