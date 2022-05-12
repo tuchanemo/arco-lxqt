@@ -51,6 +51,7 @@ sddm
 arcolinux-wallpapers-git
 lxqt
 netctl
+dhcpd
 ntfs-3g
 )
 
