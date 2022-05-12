@@ -83,7 +83,6 @@ sudo pacman -Rs pavucontrol-qt --noconfirm
 sudo pacman -Rs network-manager-applet networkmanager-openconnect networkmanager-openvpn --noconfirm
 sudo pacman -Rs networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
 sudo rm -r /etc/NetworkManager
-sudo pacman -S ifplugd netctl pciutils --noconfirm
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
