@@ -52,6 +52,7 @@ arcolinux-wallpapers-git
 lxqt
 netctl
 dhcpd
+iputils
 ntfs-3g
 )
 
