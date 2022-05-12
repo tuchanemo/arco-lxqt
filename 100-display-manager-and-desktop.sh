@@ -53,6 +53,7 @@ lxqt
 netctl
 dhcpcd
 iputils
+pciutils
 ntfs-3g
 )
 
