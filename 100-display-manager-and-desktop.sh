@@ -50,6 +50,7 @@ list=(
 sddm
 arcolinux-wallpapers-git
 lxqt
+netctl
 )
 
 count=0
