@@ -84,6 +84,7 @@ sudo pacman -Rs network-manager-applet networkmanager-openconnect networkmanager
 sudo pacman -Rs networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
 sudo rm -r /etc/NetworkManager
 sudo pacman -S connman --noconfirm
+sudo systemctl enable connman.service
 
 tput setaf 7;echo "################################################################"
 echo "You now have a very minimal functional desktop"
