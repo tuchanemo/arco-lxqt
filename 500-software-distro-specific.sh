@@ -99,7 +99,6 @@ qt5-imageformats
 xterm
 ttf-hack
 qt5-utils
-connman
 libxkbcommon-x11
 )
 
