@@ -97,8 +97,6 @@ htop
 nomacs
 qt5-imageformats
 xterm
-qt5-tools
-libxkbcommon-x11
 )
 
 count=0
