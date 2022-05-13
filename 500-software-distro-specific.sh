@@ -86,7 +86,8 @@ arcolinux-fish-git
 python-pyxdg
 gvfs
 xcompmgr
-mugshot
+#mugshot
+lxqt-build-tools
 papirus-icon-theme
 xsettingsd
 featherpad
