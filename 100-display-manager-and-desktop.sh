@@ -80,8 +80,8 @@ echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
 sudo pacman -Rs pavucontrol-qt dhclient --noconfirm
-sudo pacman -Rs network-manager-applet networkmanager-openconnect networkmanager-openvpn --noconfirm
-sudo pacman -Rs networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
+sudo pacman -R network-manager-applet networkmanager-openconnect networkmanager-openvpn --noconfirm
+sudo pacman -R networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
 sudo rm -r /etc/NetworkManager
 sudo pacman -S connman --noconfirm
 sudo systemctl enable connman.service
