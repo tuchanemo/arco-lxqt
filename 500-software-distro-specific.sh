@@ -87,7 +87,6 @@ python-pyxdg
 gvfs
 xcompmgr
 #mugshot
-lxqt-build-tools
 papirus-icon-theme
 xsettingsd
 featherpad

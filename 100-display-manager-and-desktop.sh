@@ -87,7 +87,7 @@ sudo pacman -Rs pavucontrol-qt dhclient --noconfirm
 #sudo pacman -R network-manager-applet networkmanager-openconnect networkmanager-openvpn --noconfirm
 #sudo pacman -R networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
 #sudo rm -r /etc/NetworkManager
-sudo pacman -S connman --noconfirm
+sudo pacman -S connman lxqt-build-tools --noconfirm
 sudo systemctl enable connman.service
 
 tput setaf 7;echo "################################################################"
