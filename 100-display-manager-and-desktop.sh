@@ -79,6 +79,7 @@ tput setaf 2;echo "#############################################################
 echo "Removing packages we do not want"
 echo "################################################################"
 echo;tput sgr0
+sudo systemctl disable NetworkManager --now
 sudo pacman -Rs pavucontrol-qt dhclient --noconfirm
 sudo pacman -R network-manager-applet networkmanager-openconnect networkmanager-openvpn --noconfirm
 sudo pacman -R networkmanager-pptp networkmanager-vpnc networkmanager --noconfirm
