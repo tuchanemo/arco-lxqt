@@ -83,9 +83,9 @@ sudo systemctl stop NetworkManager.service
 sudo systemctl disable NetworkManager.service
 sudo systemctl mask NetworkManager
 sudo systemctl mask NetworkManager-dispatcher
-sudo pacman -Rs pavucontrol-qt dhclient --noconfirm
-sudo pacman -Rs networkmanager-openconnect networkmanager-openvpn networkmanager-pptp --noconfirm
-sudo pacman -Rs networkmanager-vpnc network-manager-applet networkmanager --noconfirm
+sudo pacman -Rdd pulseaudio pavucontrol-qt dhclient --noconfirm
+sudo pacman -Rdd networkmanager-{openconnect,openvpn,pptp,vpnc} --noconfirm
+sudo pacman -Rdd network-manager-applet networkmanager --noconfirm
 sudo rm -r /etc/NetworkManager
 sudo pacman -S connman lxqt-build-tools --noconfirm
 sudo systemctl enable connman.service
